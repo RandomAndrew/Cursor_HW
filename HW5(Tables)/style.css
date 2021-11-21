@@ -18,30 +18,24 @@ table {
     text-align: left;
     margin-bottom: 1%;
     box-shadow: 0 0 0 1px #525252;
-    font-family: sans-serif;
-    
-    
-    
+    font-family: sans-serif;    
 }
 
 th, td {
     border-bottom: 1px solid #525252;
     padding-left: 2%;
     color: white;
-    
 }
 
 tr {
     height: 50px;
     width: 45%;
-    
 }
 
 th {
     font-weight: bold;
     color: rgb(214, 212, 212);
     width: 50%;
-    
 }
 
 td {
@@ -71,8 +65,6 @@ td {
     height: 16px;
     margin-right: 5px;
     vertical-align: text-top;
-    
-    
 }
 
 
@@ -89,20 +81,6 @@ td {
     right: 521px;
     padding-left: 30px;
     color: gray;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
-   
 }
 
 
