@@ -1,0 +1,121 @@
+body {
+    background: #2c2c2c;
+    width: 100%;
+    height: 100%;
+    color: rgb(189, 88, 88);
+    font-size: 16px;
+    padding: 7%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+table { 
+    height: 45%;
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 1%;
+    box-shadow: 0 0 0 1px #525252;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+th, td {
+    border-bottom: 1px solid #525252;
+    padding-left: 2%;
+    color: white;
+    
+}
+
+tr {
+    height: 50px;
+    width: 45%;
+    
+}
+
+th {
+    font-weight: bold;
+    color: rgb(214, 212, 212);
+    width: 50%;
+    
+}
+
+td {
+    color: #6b6969;
+}
+
+.TDcolor {
+    color: rgb(190, 190, 190);
+}
+
+.ChevronIcon {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.Checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+.Checkbox2 {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: text-top;
+    
+    
+}
+
+
+
+.Input { 
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(87, 87, 87, 0.897);
+    border: none;
+    float: left;
+    position: absolute;
+    top: 739px;
+    right: 521px;
+    padding-left: 30px;
+    color: gray;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+   
+}
+
+
+.DOTS {
+    float: right;
+    width: 17px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
