@@ -1,0 +1,141 @@
+body {
+    background: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* HEADER */
+
+header {
+    height: 10%;
+    width: 100%;
+    max-width: 1000px;
+    background: #E5E5E5;
+    flex-direction: row;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 16%;
+    justify-content: space-between;
+}
+
+.BrandLogo {
+    width: 49px;
+    height: 35px;
+    padding-top: 1%;
+}
+
+.AboutUs {
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    padding-top: 1.5%;
+}
+
+.AboutUs a {
+    text-decoration: none;
+    color: #4B5D68;
+    width: 35px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Avenir; 
+}
+
+button {
+    width: 210px;
+    height: 60px;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    background: #FFFFFF;
+    font-family: Avenir; 
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    vertical-align: middle;
+    margin-left: 4%;
+}
+
+/* MAIN */ 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+/* Block1 */
+
+.Block1 {
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 7%;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.Block1 h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Helvetica;
+    line-height: 110%;
+    padding-right: 40%;
+    color: #212353;
+    width: 50%;
+    
+}
+
+.Block1 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    padding-right: 67%;
+    width: 31%;
+    color: #4B5D68;
+    
+}
+
+.Block1 button {
+    background: #9C69E2;
+    color: #FFFFFF;
+    font-family: Avenir;
+    position: absolute;
+    width: 10%;
+    margin-top: 2%;
+}
+
+.Block1 img {
+    padding-left: 30%;
+    
+    
+    
+    
+}
+
+/* Block2 */ 
+
+.Block2 {
+    margin-top: 16%;
+    background: rgba(240, 99, 184, 0.15);
+    padding-left: 13%;
+    width: 60%;
+    padding-right: 7%;
+
+}
+
