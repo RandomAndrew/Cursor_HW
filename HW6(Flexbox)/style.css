@@ -1,23 +1,21 @@
 body {
-    background: #E5E5E5;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 /* HEADER */
 
 header {
     height: 10%;
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
-    background: #E5E5E5;
     flex-direction: row;
     display: flex;
     padding-top: 3%;
-    padding-left: 10%;
+    padding-left: 13%;
     padding-right: 16%;
     justify-content: space-between;
 }
@@ -29,11 +27,11 @@ header {
 }
 
 .AboutUs {
-    width: 28%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
-    margin-right: 30%;
-    padding-top: 1.5%;
+    margin-right: 20%;
+    padding-top: 1.5%;   
 }
 
 .AboutUs a {
@@ -43,7 +41,7 @@ header {
     height: 26px;
     font-weight: 500;
     font-size: 16px;
-    font-family: Avenir; 
+    font-family: Avenir;   
 }
 
 button {
@@ -57,6 +55,11 @@ button {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    margin-right: -5%;
+}
+
+button:hover {
+    background: #9C69E2;
 }
 
 button img {
@@ -70,22 +73,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
-    
+    align-items: center;
 }
 
 /* Block1 */
 
 .Block1 {
     padding-top: 6%;
-    padding-left: 10%;
-    padding-right: 7%;
+    padding-left: 11%;
+    padding-right: 16%;
     width: 70%;
     flex-direction: row;
     justify-content: space-around;
-    
-    
-    
 }
 
 .Block1 h1 {
@@ -95,8 +94,7 @@ main {
     line-height: 110%;
     padding-right: 40%;
     color: #212353;
-    width: 50%;
-    
+    width: 60%;
 }
 
 .Block1 p {
@@ -106,9 +104,8 @@ main {
     font-size: 18px;
     line-height: 160%;
     padding-right: 67%;
-    width: 31%;
+    width: 38%;
     color: #4B5D68;
-    
 }
 
 .Block1 button {
@@ -116,26 +113,315 @@ main {
     color: #FFFFFF;
     font-family: Avenir;
     position: absolute;
-    width: 10%;
+    width: 12%;
     margin-top: 2%;
 }
 
+.Block1 button:hover {
+    background: rgb(223, 161, 217);
+}
+
 .Block1 img {
-    padding-left: 30%;
-    
-    
-    
-    
+    padding-left: 37%;
+    margin-top: -25%;  
+    width: 81%;
 }
 
 /* Block2 */ 
 
 .Block2 {
-    margin-top: 16%;
+    display: flex;
+    flex-direction: row;
+    height: 560px;
+    border-radius: 50px;
     background: rgba(240, 99, 184, 0.15);
-    padding-left: 13%;
-    width: 60%;
-    padding-right: 7%;
-
+    margin-top: 10%;
+    width: 74%; 
 }
+
+.Block2text {
+    flex-direction: column;
+    padding: 6%
+}
+
+.Block2text h2 { 
+    font-size: 40px;
+    font-family: Helvetica;
+    line-height: 130%;
+    text-align: left;
+    font-weight: 700;
+    color: #212353;
+}
+
+.Block2text p {
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 500;
+    font-family: Avenir;
+    color: #4B5D68;
+    padding-top: 2%;
+    line-height: 160%;
+}
+
+/* Block3 */
+
+.Block3 {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.Block3 h2 {
+    font-family: Helvetica;
+    color: #212353;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.Block3 h3 {
+    color: #4B5D68;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    width: 584px; 
+}
+
+/* Block4 */
+
+.Block4 {
+    margin-top: 6%;
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    padding: 3%;
+}
+
+.Block4-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.MiniBlock {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    margin-right: 86px;
+}
+
+.Block4 h3 {
+   font-weight: 400;
+   font-family: Helvetica;
+   color: #212353;
+   font-size: 24px;
+}
+
+.Block4 p {
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+}
+
+.Block4Image {
+    width: 50%;
+    height: 65%;
+    margin-right: 4%;
+    padding-top: 8%;
+}
+
+.Block4 a {
+    text-decoration: none;
+    color: #212353;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.Block4 a img {
+    vertical-align: middle;
+    margin-left: 4%;
+}
+
+/* Block5 */
+
+.Block5 {
+    width: 74%;
+    background: #9C69E2;
+    margin-top: 10%;
+    height: 600px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Block5Testi {
+    font-family: Helvetica;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 7%;
+    margin-left: 9%;
+}
+
+.JohnFang {
+    height: 40%;
+    width: 80%;
+    background: white;
+    margin-left: 9%;
+    margin-top: 4%;
+    padding-top: 5%;
+    padding-right: 3%; 
+    box-shadow: 0px 20px 0px rgba(99, 55, 160, 0.3);
+    border-radius: 20px;
+}
+
+.JohnFang img {
+    width: 132.42px;
+    height: 90px;
+    position: absolute;
+    padding-left: 6%;
+} 
+
+.Biography {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30%;
+    width: 55%;
+    height: 200px;
+}
+
+.Biography h1 {
+    color: rgba(33, 35, 83, 1);
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.5%;
+    font-style: normal;
+}
+
+.Biography a {
+    color: rgba(156, 105, 226, 1);
+    text-decoration: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+}
+
+.Biography p {
+    color: rgba(75, 93, 104, 1);
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.Block5Icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 8%;
+    padding-top: 5.5%;
+    cursor: pointer;
+}
+
+/* FOOTER */ 
+
+footer {
+    width: 80%;
+    padding: 10%;
+}
+
+.FooterBlock1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-right: -15%;
+}
+
+.FooterMaintext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.FooterMaintext h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    text-align: left;
+}
+
+.FooterMaintext h3 {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    text-align: left;
+}
+
+.FooterBlockButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 35%;
+    height: 25%;
+    align-self: center;
+    margin-right: 18%;
+}
+
+.FooterBlockButtons button {
+    border-radius: 50px;
+    font-family: Avenir;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 3%;
+    font-style: normal;
+    letter-spacing: 0.005em;
+    align-items: center;
+}
+
+.FooterBlock2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    color: rgba(33, 35, 83, 1);
+}
+
+.FooterBlock2-1 {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-left: 4%;
+    font-family: Avenir; 
+    text-align: left;
+    
+}
+
+.FooterBlock2Links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    font-family: Avenir;
+    font-size: 16px;
+    text-align: left;
+    width: 10%;
+    cursor: pointer;
+}
+
 
