@@ -70,17 +70,15 @@ td {
 
 
 .Input { 
-    width: 250px;
+    width: 1100%;
     height: 40px;
     border-radius: 5px;
     background-color: rgba(87, 87, 87, 0.897);
     border: none;
-    float: left;
-    position: absolute;
-    top: 98%;
-    right: 32.6%;
+    float: right;
     padding-left: 30px;
     color: gray;
+    margin-right: 5px;
 }
 
 
