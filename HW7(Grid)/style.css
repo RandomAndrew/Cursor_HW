@@ -12,7 +12,6 @@ body {
     height: 4400px;
     position: relative;
     margin: 0px;
-    
 }
 
 .Background1 {  
@@ -26,6 +25,8 @@ body {
     top: 0px;
 }
 
+/* HEADER */
+
 header {
     width: 90%;
     height: 30%;
@@ -35,7 +36,6 @@ header {
     padding: 4% 6%;
     position: absolute;
     z-index: 1;
-    
 }
 
 .HeaderBlock1 {
@@ -46,8 +46,6 @@ header {
     line-height: 20px;
     font-style: normal;
     text-decoration: underline solid 2px;
-    
-    
 }   
 
 
@@ -59,18 +57,15 @@ header {
     font-style: normal;
     font-size: 16px;
     line-height: 20px;
-    
 }
 
 .MailAndPhone {
-    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
-    
 }
 
 .HeaderButton {
@@ -83,10 +78,8 @@ header {
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     margin-top: -2%;
-    
     line-height: 22px;
     cursor: pointer;
-    
 }
 
 .HeaderButton:hover {
@@ -102,8 +95,6 @@ main {
     display: flex;
     flex-direction: column;
     padding-top: 11.5%;
-    
-    
 }
 
 /* MainBlock1 */
@@ -113,7 +104,6 @@ main {
     flex-direction: row;
     width: 100%;
     padding-left: 6%;
-    
 }
 
 .MainBlock1-1 {
@@ -127,14 +117,12 @@ main {
     line-height: 49px;
     font-style: normal;
     color: #111111;
-    
 }
 
 .MainBlock1-1 h3 {
     font-family: Open Sans;
     font-size: 24px;
     line-height: 33px;
-    
 }
 
 .ButtonBlock1-1 {
@@ -144,7 +132,6 @@ main {
     border: none;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
-    
     line-height: 22px;
     width: 251px;
     height: 52px;
@@ -164,7 +151,6 @@ main {
 .MainBlock2 {
     margin-top: 7%;
     margin-left: 6%;
-   
     z-index: 1;
     display: grid;
     grid-template-columns: 305px 305px 305px 305px;
@@ -196,7 +182,6 @@ main {
 /* MainBlock3 */
 
 .MainBlock3 {
-    
     margin-top: 8%;
     margin-left: 6%;
     display: flex;
@@ -236,7 +221,6 @@ main {
     border-radius: 10px;
     padding-left: 40px;
     padding-bottom: 20px;
-    
 }
 
 
@@ -245,10 +229,7 @@ main {
     background-blend-mode: multiply;
     grid-area: b;  
     border-radius: 10px;
-    
     padding-left: 40px;
-
-    
 }
 
 .Banner3 {
@@ -256,10 +237,7 @@ main {
     background-blend-mode: multiply;
     grid-area: c;  
     border-radius: 10px;
-    
     padding-left: 40px;
-    
-
 }
 
 .Banner4 {
@@ -267,15 +245,11 @@ main {
     background-blend-mode: multiply;
     grid-area: d;  
     border-radius: 10px;
-    
     padding-left: 40px;
     padding-bottom: 40px;
-    
-
 }
 
 .BannersTitle {
-    
     color: #FFFFFF;
     font-weight: 800;
     font-size: 24px;
@@ -288,10 +262,8 @@ main {
 }
 
 .Locations {
-    
     color: #FFFFFF;
     font-size: 18px;
-   
 }
 
 .ButtonBlocks {
@@ -390,6 +362,8 @@ main {
     margin-top: 8%;
     margin-left: 6%;
 }
+
+/* MainBlock5 */
 
 .MainBlock5 {
     margin-top: 8%;
@@ -497,7 +471,6 @@ main {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    
 }
 
 .Block6-1 {
@@ -595,8 +568,6 @@ main {
     filter: drop-shadow(0px -5px 20px rgba(41, 41, 42, 0.2));
     margin-left: 188px;
     z-index: 1;
-    
-     
 }
 
 .ContactUS {
@@ -605,14 +576,12 @@ main {
     font-size: 36px;
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .Block7Form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .Input1-2 {
@@ -666,7 +635,6 @@ main {
     width: 703px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .Block7-2Span1 {
@@ -690,10 +658,6 @@ main {
     font-weight: 400;
 }
 
-
-
-
-
 /* FOOTER */ 
 
 footer {
@@ -707,7 +671,6 @@ footer {
 }
 
 .FooterBlock1 {
-    
     align-content: end;
     margin-top: 397px;
     margin-left: 80px;
