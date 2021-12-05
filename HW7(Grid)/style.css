@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+    width: 1400px;
+    font-family: 'Montserrat', sans-serif;
+    height: 4400px;
+    position: relative;
+    margin: 0px;
+    
+}
+
+.Background1 {  
+    background: #2B7AF1;
+    border-radius: 0px 0px 0px 10px;
+    position: absolute;
+    width: 750px;
+    height: 19%;  
+    z-index: 0;
+    left: 690px;
+    top: 0px;
+}
+
+header {
+    width: 90%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 136px 68px 86px 82px 48px 180px 191px 218px;
+    gap: 45px;
+    padding: 4% 6%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.HeaderBlock1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(17, 17, 17, 1);
+    padding-top: 12px;
+    line-height: 20px;
+    font-style: normal;
+    text-decoration: underline solid 2px;
+    
+    
+}   
+
+
+.HeaderBlockAll {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 1);
+    padding-top: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.MailAndPhone {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    
+}
+
+.HeaderButton {
+    width: 90%;
+    height: 3.5%;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;    
+    border: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -2%;
+    
+    line-height: 22px;
+    cursor: pointer;
+    
+}
+
+.HeaderButton:hover {
+    color: blue;
+    background: rgb(216, 91, 60);
+}
+
+/* MAIN */
+
+main {
+    width: 96.2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 11.5%;
+    
+    
+}
+
+/* MainBlock1 */
+
+.MainBlock1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 6%;
+    
+}
+
+.MainBlock1-1 {
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.MainBlock1-1 h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    font-style: normal;
+    color: #111111;
+    
+}
+
+.MainBlock1-1 h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    line-height: 33px;
+    
+}
+
+.ButtonBlock1-1 {
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;    
+    border: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    
+    line-height: 22px;
+    width: 251px;
+    height: 52px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.Block1Image {
+    z-index: 1;
+    width: 895px;
+    height: 473px;
+    margin-right: 3.5%;
+}
+
+/* MainBlock2 */
+
+.MainBlock2 {
+    margin-top: 7%;
+    margin-left: 6%;
+   
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 305px 305px 305px 305px;
+    grid-template-rows: 231px;
+    gap: 20px;
+}
+
+.MiniBlocks {
+    width: 305px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 20px rgba(17, 17, 17, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.MiniBlocks h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 265px;
+}
+
+/* MainBlock3 */
+
+.MainBlock3 {
+    
+    margin-top: 8%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.MainTitles {
+   
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+    width: 320px;
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+
+.Block3-1 {
+    display: grid;
+    grid-template-columns: 522px 200px 522px;
+    grid-template-rows: 300px 300px; 
+    gap: 20px;
+    grid-template-areas: 
+        "a a b "
+        "c d d";
+        
+}
+
+
+.Banner1 {
+    background: url(IMG/Background1.png) no-repeat center / cover, #555454ad;
+    background-blend-mode: multiply;
+    grid-area: a;  
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+
+
+.Banner2 {
+    background: url(IMG/Background2.png) no-repeat center / cover, #555454ad;
+    background-blend-mode: multiply;
+    grid-area: b;  
+    border-radius: 10px;
+    
+    padding-left: 40px;
+
+    
+}
+
+.Banner3 {
+    background: url(IMG/Background3.png) no-repeat center / cover, #555454ad;
+    background-blend-mode: multiply;
+    grid-area: c;  
+    border-radius: 10px;
+    
+    padding-left: 40px;
+    
+
+}
+
+.Banner4 {
+    background: url(IMG/Background4.png) no-repeat center / cover, #555454ad;
+    background-blend-mode: multiply;
+    grid-area: d;  
+    border-radius: 10px;
+    
+    padding-left: 40px;
+    padding-bottom: 40px;
+    
+
+}
+
+.BannersTitle {
+    
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 116px;
+}
+
+.Prices {
+    margin-top: 66px;
+    color: #FFFFFF;
+}
+
+.Locations {
+    
+    color: #FFFFFF;
+    font-size: 18px;
+   
+}
+
+.ButtonBlocks {
+    width: 126px;
+    height: 33px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonApt {
+    margin-top: 20px;
+    width: 133px;
+    height: 31px;
+    background: rgba(92, 184, 92, 1);
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.Block4Button {
+    align-items: center;
+    width: 304px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 500px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Block4Button:hover {
+    background: #2B7AF1;
+}
+
+/* MainBlock4 */ 
+
+.MainBlock4 {
+    margin-top: 8%;
+    margin-left: 6%;
+    display: grid;
+    grid-template-columns: 433px 189px 186px 171px;
+    grid-template-rows: 44px 125px;
+    row-gap: 40px;
+    column-gap: 100px;
+    grid-template-areas: 
+        "a . . ."
+        "b c d e";
+}
+
+.Block4-1 {
+    grid-area: a;
+} 
+
+.Block4-2 {
+    grid-area: b;
+    width: 433px;
+    height: 125px;
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.Block4-3 {
+    grid-area: c;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Block4-4 {
+    grid-area: d;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Block4-5 {
+    grid-area: e;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Line {
+    margin-top: 8%;
+    margin-left: 6%;
+}
+
+.MainBlock5 {
+    margin-top: 8%;
+    margin-left: 6%;
+    display: grid;
+    grid-template-columns: 482px 758px;
+    grid-template-rows: 50px 10px 40px 40px 40px 70px 40px 40px;
+    column-gap: 40px;
+    row-gap: 15px;
+    grid-template-areas: 
+    
+    "a pic"
+    ". pic"
+    "b pic"
+    "c pic"
+    "d pic"
+    ". pic"
+    "e pic"
+    "f pic";
+}
+
+.Span5 {
+    grid-area: a;
+    color: #2B7AF1;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.Block5-1 {
+    grid-area: b;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Block5-2 {
+    grid-area: c;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Block5-3 {
+    grid-area: d;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Block5-4 {
+    grid-area: e;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Block5-5 {
+    grid-area: f;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Block5Titles {
+    margin-left: 20px;
+}
+
+.Block5Map {
+    grid-area: pic;
+}
+
+.Block5Button {
+    width: 157px;
+    height: 33px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border: white;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 123px;
+    cursor: pointer;
+}
+
+.Block5Button:hover {
+    color: #2B7AF1;
+}
+
+/* MainBlock6 */
+
+.MainBlock6 {
+    margin-top: 10%;
+    width: 1440px;
+    height: 649px;
+    background: #2B7AF1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.Block6-1 {
+    height: 379px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Block6Span {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.MiniBlock6-1 {
+    width: 630px;
+    height: 292px;
+    background: #FFFFFF;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.Block6-2 {
+    height: 292px;
+    width: 630px;
+    background: #FFFFFF;
+    margin-top: 181px;
+    margin-right: 4%;
+    border-radius: 10px;   
+    position: relative;
+}
+
+.ForMiniBlocks {
+    padding: 40px 40px 40px 45px;
+}
+
+
+.Span1 {
+    color: #2B7AF1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Feedbacks1 {
+    width: 550px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.Feedbacks2 {
+    width: 180px;
+    color: #2B7AF1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 38px;
+}
+
+.Cities {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.Dates {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    float: right;
+    
+}
+
+/* MainBlock7 */
+
+.MainBlock7 {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.MainBlock7-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 393px;
+    height: 451px;  
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px -5px 20px rgba(41, 41, 42, 0.2));
+    margin-left: 188px;
+    z-index: 1;
+    
+     
+}
+
+.ContactUS {
+    color: #2B7AF1;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.Block7Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Input1-2 {
+    width: 313px;
+    height: 42px;
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgba(17, 17, 17, 0.5);
+}
+
+.Input3 {
+    width: 313px;
+    height: 115px;
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    color: rgba(17, 17, 17, 0.5);
+}
+
+
+
+.Block7Button {
+    width: 152px;
+    height: 50px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    border: white;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Block7Button:hover {
+    background: #2B7AF1;
+}
+
+
+.MainBlock7-2 {
+    margin-left: 84px;
+    margin-top: 30px;
+    width: 703px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Block7-2Span1 {
+    font-size: 18px;
+    line-height: 140%;
+    color: #111111;
+    font-weight: 400;
+    position: absolute;
+}
+
+.Block7-2Span2 {
+    color: #2B7AF1; 
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Block7-2Span3 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* FOOTER */ 
+
+footer {
+    width: 1440px;
+    height: 557px;
+    margin-top: -520px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ) , url(IMG/FooterImage.png) no-repeat center;
+}
+
+.FooterBlock1 {
+    
+    align-content: end;
+    margin-top: 397px;
+    margin-left: 80px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 150px 68px 86px 82px 48px 180px 191px 200px;
+    grid-template-rows: 60px;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.FooterButton {
+    height: 60px;
+    background: #2B7AF1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.FooterButton:hover {
+    background: #FFB039;
+}
+
+.FooterSpans {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.FooterContacts {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.FooterSocials {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.FooterLine {
+    margin-left: 80px;
+    margin-top: 497px;
+
+}
+
+.FooterBlock2 {
+    margin-top: 21px;
+    margin-left: 80px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
