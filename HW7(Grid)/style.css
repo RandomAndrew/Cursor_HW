@@ -2,13 +2,13 @@
 
 
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, 'Open Sans';
 }
 
 body {
     background: #FFFFFF;
     width: 1400px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, 'Open Sans';
     height: 4400px;
     position: relative;
     margin: 0px;
