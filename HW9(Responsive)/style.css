@@ -56,7 +56,6 @@ header {
 .HeaderSocials {
     margin-top: 50px;
     cursor: pointer;
-    
 }
 
 /* MAIN */
@@ -185,11 +184,10 @@ main {
 
 .MainBlock3 {
     width: 1440px;
-    height: 735px;
+    height: 745px;
     background: url('IMG/BackgroundBlock3.png');
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: #FFFFFF;
 }
 
@@ -197,9 +195,108 @@ main {
     margin-top: 76px;
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .Block3-1Grid {
-    grid-template-columns: ;
-    grid-template-rows: ;
+    display: grid;
+    grid-template-columns: 311px 311px 311px;
+    grid-template-rows: 162px 162px 162px;
+    column-gap: 90px;
+    row-gap: 42px;
+    margin-top: 55px;
+    margin-left: 164px;
+}
+
+.GridAll {
+    width: 311px;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+/* MainBlock4 */ 
+
+.MainBlock4 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 431px;
+    color: #333333;
+    background: #FFFFFF;
+    
+}
+
+.Block4text {
+    text-align: center;
+    margin-top: 68px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Block4Img {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Block4Dots {
+    width: 143px;
+    height: 11px;
+    margin-top: 47px;
+    margin-left: 649px;
+}
+
+.MainBlock5 { 
+    width: 1440px;
+    height: 278px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Block5text {
+    margin-top: 57px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Block5Banners {
+    margin-top: 60px;
+}
+
+.MainBlock6 {
+    width: 1440px;
+    height: 483px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Block6Banner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+    margin-left: 77px;
+}
+
+.Block6text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Block6Par {
+    font-size: 16px;
+    line-height: 25px;
+    width: 535px;
+    margin-top: 38px;
+    color: #4F4F4F;
+    font-weight: 400;
+}
+
+.Block6Soc {
+    margin-top: 39px;
+    cursor: pointer;
 }
