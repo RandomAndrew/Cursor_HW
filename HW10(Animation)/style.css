@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+/* BOUNCE */
+
+.BounceContainer {
+    width: 600px;
+    height: 250px;
+    background: rgb(241, 211, 74);  
+} 
+
+.BounceBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.Bounce {
+    margin-top: 90px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 30px;
+    box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 30%);
+}
+
+.Bounce:first-child {
+    animation-duration: 1.7s;
+    animation-name: leftball;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.Bounce:last-child {
+    animation-duration: 1.7s;
+    animation-name: rightball;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes leftball {
+
+    25% {
+        transform: translate(-40px, -40px);
+        box-shadow: 0px 110px 16px -16px rgb(0 0 0 / 30%);
+        background: red;
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+        box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 30%);
+        background: red;
+    }
+
+    51% {
+        background: blue;   
+    }
+
+}
+
+@keyframes rightball {
+
+    50% {
+        transform: translate(0px, 0px);
+        box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 30%);
+        background: red;
+    }
+
+    75% {
+        transform: translate(40px, -40px);
+        box-shadow: 0px 110px 16px -16px rgb(0 0 0 / 30%);
+        background: red;
+    }
+
+    76% {
+        background: blue;   
+    }
+
+}
+
+/* JEDI "STARWARS" */
+
+.JediContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    padding: 150px;
+    margin-top: 10px;
+}
+
+.JediBlock {
+    height: 6px;
+    width: 250px;
+    background: linear-gradient(-270deg, white 0%, white 70%, black 70%, black  85%, white 85%, white 100%);
+    margin-left: 100px;
+    transition: 0.2s ease-in-out 0.6s;
+    margin: 50px 0;
+}
+
+.JediContainer::before , 
+.JediContainer::after {
+
+    display: block;
+    height: 6px;
+    width: 250px;
+    content: "";
+    transition: 0.4s ease-in-out 0.2s;
+    background: linear-gradient(270deg, white 0%, white 70%, black  70%, black  85%, white 85%, white 100%);
+}
+
+.JediContainer:hover .JediBlock {
+    transition: 0.1s ease-in-out 0.1s;
+    visibility: hidden;
+}
+
+.JediContainer:hover::before {
+    transform: translate(0, 39px) rotate(210deg);
+    box-shadow: 0px 0px 24px 16px rgba(224, 59, 30, 0.644);
+}
+
+.JediContainer:hover::after {
+    transform: translate(0, -71px) rotate(-390deg);
+    box-shadow: 0px 0px 24px 16px rgba(8, 134, 40, 0.671);
+}
+
+

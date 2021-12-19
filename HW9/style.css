@@ -10,9 +10,10 @@
 /* MAIN BLOCK 1 */
 
 .MainBlock1 {
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    
     
 }
 
@@ -21,6 +22,7 @@
     flex-direction: column;
     margin-top: 63px;
     margin-left: 163px;
+    
 }
 
 .Block1-1 {
@@ -30,7 +32,7 @@
     font-weight: 700;
     line-height: 48px;
     color: #333333;
-    width: 120%;
+    width: 100%;
 
 }
 
@@ -46,6 +48,7 @@
     margin-top: 50px;
     cursor: pointer;
 }
+
 
 @media (max-width: 720px) {
 
@@ -70,6 +73,8 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: 0px 10px;
+        align-items: center;
     }
 
     .Block1-1 {

@@ -8,13 +8,23 @@
 
 body {
     background: #F4F6F9;
-    max-width: 1440px;
+    width: 100%;
 }
+
+@media  (max-width:720px) {
+
+    body { 
+        background: unset;
+    }
+}
+
+
+
 
 /* HEADER */
 
 header {
-    width: 1440px;
+    width: 100%;
     height: 665px;
     background: #F4F6F9;
     display: flex;
@@ -42,7 +52,7 @@ header {
     letter-spacing: 0.03em;
     color: #333333;
     margin-top: 133px;
-    width: 130%;
+    width: 100%;
 }
 
 .HeaderTitle2 {
@@ -58,15 +68,55 @@ header {
     cursor: pointer;
 }
 
-/* MAIN */
+@media  (max-width:720px) {
+    
+    header {
+        width: 100%;
+    }
 
-main {
+    .HeaderBlock1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .HeaderTitle1 {
+        width: 100%;
+    }
+
+    .HeaderTitle2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .HeaderDevices {
+        display: none;
+    }
+
+    .BLock1SVG {
+        margin-left: 131px;
+    }
+
+    .HeaderSocials {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-/* MAIN BLOCK-1 */
+
+
+
 
 .MainBlock1 {
     display: flex;
@@ -74,10 +124,17 @@ main {
     background: #FFFFFF;
     margin-top: 0px;
     height: 592px;
+    width: 100%;
+}
+
+.Block1Text {
+    margin-top: 133px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
 }
 
 .Block1-1 {
-    margin-top: 133px;
     color: #00ADEE;
     font-size: 16px;
     line-height: 21px;
@@ -102,12 +159,18 @@ main {
     margin-bottom: 23px;
 }
 
+@media  (max-width:720px) {
+    .Block1-3 {
+        width: 90%;
+    }
+}
+
 .Block1-4 {
     text-decoration: none;
     color: #00ADEE;
     font-size: 16px;
     font-weight: 700;
-}
+}   
 
 .Block1Images {
     width: 805px;
@@ -117,28 +180,76 @@ main {
 }
 
 .Image1 {
+    
     z-index: 0;
     margin-top: 296px;
     margin-left: 270px;
     box-shadow: 0px 0px 15px 10px rgb(194, 191, 191);
 }
 
+@media  (max-width:720px) {
+    .Image1 {
+        margin-left: 92px;
+        width: 70%;
+
+    }
+
+
+}
+
 .Image2 {
+    
     z-index: 1;
     position: absolute;
     margin-top: 85px;
     margin-left: -530px;
 }
 
-/* MAIN BLOCK-2 */
+@media  (max-width:720px) {
+
+.MainBlock1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 300px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.Block1Images {
+    margin-top: 22px;
+    width: 388px;
+    height: 360px;
+    position: relative;
+
+}
+
+
+
+.Image2 {
+    display: none;
+    width: 70%;
+    margin-left: 20px;
+    position: absolute;
+
+}
+
+}
+
 
 .MainBlock2 {
     display: flex;
     flex-direction: row;
     background: url('IMG/BackgroundBlock2.png');
-    width: 1440px;
+    width: 100%;
     height: 716px;
     margin-top: 0px;
+}
+
+@media (max-width:720px) {
+
+    .MainBlock2 {
+        display: none;
+    }
 }
 
 .Block2text {
@@ -171,6 +282,14 @@ main {
     line-height: 23px;
     font-weight: 400;
     margin-bottom: 23px;
+
+    
+}
+
+@media (max-width:720px) {
+    .Block2-3 {
+        width: 100%;
+    }
 }
 
 .Block2-4 {
@@ -180,15 +299,23 @@ main {
     font-weight: 700;
 }
 
-/* MAIN BLOCK-3 */ 
+
+
 
 .MainBlock3 {
-    width: 1440px;
+    width: 100%;
     height: 745px;
     background: url('IMG/BackgroundBlock3.png');
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+}
+
+@media (max-width:720px) {
+
+    .MainBlock3 {
+        display: none;
+    }
 }
 
 .Block3text {
@@ -215,16 +342,24 @@ main {
     font-weight: 400;
 }
 
-/* MainBlock4 */ 
+
+
+
 
 .MainBlock4 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
     height: 431px;
     color: #333333;
     background: #FFFFFF;
-    
+}
+
+@media (max-width:720px) {
+
+    .MainBlock4 {
+        display: none;
+    }
 }
 
 .Block4text {
@@ -249,12 +384,19 @@ main {
 }
 
 .MainBlock5 { 
-    width: 1440px;
+    width: 100%;
     height: 278px;
     background: #FAFAFA;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width:720px) {
+
+    .MainBlock5 {
+        display: none;
+    }
 }
 
 .Block5text {
@@ -268,12 +410,21 @@ main {
 }
 
 .MainBlock6 {
-    width: 1440px;
+    width: 100%;
     height: 483px;
-
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width:720px) {
+
+    .MainBlock6 {
+        display: none;
+    }
+
+}
+
+
 
 .Block6Banner {
     display: flex;
@@ -300,3 +451,46 @@ main {
     margin-top: 39px;
     cursor: pointer;
 }
+
+
+
+footer {
+    width: 100%;
+    height: 127px;
+    background: #00ADEE;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (max-width:720px) {
+
+    footer {
+        display: none;
+    }
+}
+
+.FooterBlock {
+    display: flex;
+    flex-direction: row;
+    margin-left: 163px;
+    margin-top: 48px;
+}
+
+.FooterLinks {
+    margin-top: 11px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.FooterLinks:hover {
+    color: red;
+}
+
+.FooterSocials {
+    margin-left: 261px;
+    margin-top: 5px;
+    cursor: pointer;
+} 
