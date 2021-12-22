@@ -1,0 +1,28 @@
+.posts {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.tagged {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #8F8F8F;
+    font-weight: 700;
+}
+
+.randomlink {
+    color: #133768;
+}
+
+.randomlink:hover {
+    color:blue;
+}
+
+.INST {
+    cursor: pointer;
+}
+
+
+
