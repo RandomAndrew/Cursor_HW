@@ -12,10 +12,10 @@ body {
 }
 
 @media  (max-width:720px) {
-
-    body { 
-        background: unset;
+    body {
+        max-width: 70%;
     }
+    
 }
 
 
@@ -90,10 +90,7 @@ header {
         text-align: center;
     }
 
-    .HeaderDevices {
-        display: none;
-    }
-
+    
     .BLock1SVG {
         margin-left: 131px;
     }
@@ -102,6 +99,10 @@ header {
         display: flex;
         flex-direction: row;
         margin-left: 20px;
+    }
+
+    .HeaderDevices {
+        display: none;
     }
 }
 
@@ -166,7 +167,7 @@ header {
 }
 
 .Block1-4 {
-    text-decoration: none;
+    
     color: #00ADEE;
     font-size: 16px;
     font-weight: 700;
@@ -226,7 +227,7 @@ header {
 
 
 .Image2 {
-    display: none;
+    
     width: 70%;
     margin-left: 20px;
     position: absolute;
@@ -247,9 +248,7 @@ header {
 
 @media (max-width:720px) {
 
-    .MainBlock2 {
-        display: none;
-    }
+    
 }
 
 .Block2text {
@@ -313,9 +312,7 @@ header {
 
 @media (max-width:720px) {
 
-    .MainBlock3 {
-        display: none;
-    }
+    
 }
 
 .Block3text {
@@ -357,9 +354,7 @@ header {
 
 @media (max-width:720px) {
 
-    .MainBlock4 {
-        display: none;
-    }
+    
 }
 
 .Block4text {
@@ -394,9 +389,7 @@ header {
 
 @media (max-width:720px) {
 
-    .MainBlock5 {
-        display: none;
-    }
+    
 }
 
 .Block5text {
@@ -418,9 +411,7 @@ header {
 
 @media (max-width:720px) {
 
-    .MainBlock6 {
-        display: none;
-    }
+    
 
 }
 
@@ -465,9 +456,7 @@ footer {
 
 @media (max-width:720px) {
 
-    footer {
-        display: none;
-    }
+    
 }
 
 .FooterBlock {
