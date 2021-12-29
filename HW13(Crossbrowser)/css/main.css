@@ -427,18 +427,21 @@ button {
 
 .reviews .arrow-left, .reviews .arrow-right {
     position: absolute;
-    top: 50%;
+    top: 70%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
 
 .reviews .arrow-right {
-    right: 50px;
+    cursor: pointer;
+    right: 150px;
+    
 }
 
 .reviews .arrow-left {
-    left: 50px;
+    left: 150px;
+    cursor: pointer;
 }
 
 .reviews .review-slider {
@@ -465,11 +468,14 @@ button {
 }
 
 .reviews .review-author {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: right;
     margin: 10px 0 auto 0;
     vertical-align: top;
     padding-top: 15px;
+    float: right;
+    
 }
 
 .reviews .review-author > * {
@@ -479,11 +485,13 @@ button {
 .reviews .review-author .ava {
     position: relative;
     top: -15px;
-    margin-right: 10px;
+    margin-left: 80px;
+    width: 40px;
 }
 
 .delivery .h2 {
-    margin-bottom: 50px;
+    margin-top: 10%;
+    
 }
 
 .delivery .h4 {
